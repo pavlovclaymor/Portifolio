@@ -5,59 +5,26 @@
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
 body{
-    overflow: hidden;
+    overflow:hidden ;
 }
 .background{
 
     background: linear-gradient(rgba(0,0,0.5), rgba(0,0,0.5));
-    background-image:linear-gradient(rgba(0,0,0.5), rgba(0,0,0.5));
+    background-image: linear-gradient(rgba(0,0,0.5), rgba(0,0,0.5));
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
 }
-
-header{
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
-    text-align: center;
-    padding-top: 1rem;
-
-}
-.cabecalho-Link{
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer;
-    
-}
-.cabecalho-Link a{
-    color: #fff;
-    font-size: 16px;
-}
-.cabecalho-Link a:hover{
+#Changed:hover{
     color: #2ecc71;
-    transition: 0.3s;
+    transition: 0.8s;
 }
-.logo{
-    height: 80px;
-    width: 80px;
-    background: transparent;
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
-}
+
 button{
     color: #2ecc71;
     background: transparent;
@@ -72,4 +39,62 @@ button:hover{
     color: #fff;
     transition: 0.5s;
     cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 10rem;
+}
+.text-conatiner{
+    padding: 10px 10px 10px 10px;
+    border: 1PX solid #3e3e3e;
+    width: 960px;
+    height: 300px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.perfil{
+    margin-top: 80px;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 250px;
+    border-radius: 100%;
+    margin-left: 15px;
+}
+.txt-spacing{
+    margin: 10px 10px 10px 25px;
+}
+p{
+    margin: 10px 10px 10px 100px;
+}
+.btn-spacing{
+   margin-left: 45px;
+}
+.nav-footer{
+    width: 100%;
+    height: 30px;
+    padding-left: 450px;
+    
+}
+.FixedProject{
+    padding: 10px 10px 10px 10px;
+    border: 1PX solid #3e3e3e;
+    width: 460px;
+    height: 55px;
+    border-radius: 5px;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-right: 30px; 
+    margin: 0 auto;
+    margin-left: 424px;
+    
+}
+#hidden{
+    font-size: 14px;
+    color: #3e3e3e;
+}
+#blue{
+    color: #004cff;
 }

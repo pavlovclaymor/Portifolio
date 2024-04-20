@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    
+
+}
+.cabecalho-Link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+.cabecalho-Link a{
+    color: #fff;
+    font-size: 16px;
+}
+.cabecalho-Link a:hover{
+    color: #2ecc71;
+    transition: 0.3s;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color: #2ecc71;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    width: 150px;
+}

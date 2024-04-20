@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/Header.css">
     <link rel="stylesheet" href="../assets/css/main.css">
 </head>
 <body>
    
-    <div class="background">
+    <main class="background">
         <header>
             <div class="logo">
-                <i><img src="../assets/img/capa4.jpg" alt="Imojis.jpg" class="logo"></i>
+                <i><img src="../assets/img/logo.jpg" alt="Imojis.jpg" class="logo"></i>
             </div>
             <div class="cabecalho-Link">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#" onclick="HomePageUpDate()">Home</a>
                 </li>
                 <li>
                     <a href="#">Sobre</a>
@@ -32,7 +33,7 @@
             </div>
         </header>
 
-        <div class="container">
+        <section class="container">
             <div class="text">
                 <h3>Olá Pessoal</h3>
                 <h1>Eu sou <span>Ronaldo Caminha Bernardo</span></h1>
@@ -43,10 +44,11 @@
                     <a href="#"><i></i></a>
                     <a href="#"><i></i></a>
                     <a href="#"><i></i></a>
-                    <button id="btn">Sobre Mim</button>
+                    <button id="btn" onclick="Changed()">Sobre Mim</button>
                 </div>
-            </div>
+            </section>
         </div>
-    </div>
+    </main>
+    <script src="../assets/js/ChangedPathPage.js"></script>
 </body>
 </html>
